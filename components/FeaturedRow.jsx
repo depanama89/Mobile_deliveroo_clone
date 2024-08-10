@@ -31,6 +31,66 @@ export default function FeaturedRow({ id, title, description }) {
           long={20}
           lat={0}
         />
+        <RestaurantCard
+          id="123"
+          imgUrl={require("../assets/images/01.jpg")}
+          title="YO!Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="12 main avenue"
+          short_description="Thisi"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id="123"
+          imgUrl={require("../assets/images/01.jpg")}
+          title="YO!Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="12 main avenue"
+          short_description="Thisi"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id="123"
+          imgUrl={require("../assets/images/01.jpg")}
+          title="YO!Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="12 main avenue"
+          short_description="Thisi"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id="123"
+          imgUrl={require("../assets/images/01.jpg")}
+          title="YO!Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="12 main avenue"
+          short_description="Thisi"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id="123"
+          imgUrl={require("../assets/images/01.jpg")}
+          title="YO!Sushi"
+          rating={4.5}
+          genre="Japanese"
+          address="12 main avenue"
+          short_description="Thisi"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
       </ScrollView>
     </View>
   );

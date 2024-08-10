@@ -16,7 +16,7 @@ export default function RestaurantCard({
   lat,
 }) {
   return (
-    <TouchableOpacity className="px-3  pb-4">
+    <TouchableOpacity className="bg-white mr-3 shadow-sm">
       <Image source={imgUrl} className="w-64 h-36 rounded-sm" />
       <View>
         <Text className="font-bold text-lg pt-2">{title}</Text>
@@ -28,7 +28,7 @@ export default function RestaurantCard({
         </View>
         <View className="flex-row  items-center space-x-1">
           <MapPinIcon color="gray" opacity={0.4} size={22} />
-          <Text className="text-xs text-green-600">Nearby - {address}</Text>
+          <Text className="text-xs text-gray-600">Nearby - {address}</Text>
         </View>
       </View>
     </TouchableOpacity>
